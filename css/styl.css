@@ -40,4 +40,6 @@ form {
 
 .link {
     width: 300px;
+    align-items: flex-end;
+    justify-content: space-around;
 }
