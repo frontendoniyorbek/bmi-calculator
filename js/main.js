@@ -13,7 +13,7 @@ elForm.addEventListener('submit', (e) => {
         h1.textContent = `${ism}: Siz ancha ozg'insiz semirishga harakat qiling 🙏`;
         elForm.innerHTML = `<img src="../img/ozg'in.png" alt="iltimos meni tanlang">`
     } else if (18.5 <= bmi && 24.9 >= bmi) {
-        h1.textContent = `${ism}: Sizning holaringiz ajoyib 💪`
+        h1.textContent = `${ism}: Sizning holatingiz ajoyib 💪`
         elForm.innerHTML = `<img src="../img/norm.png" alt="norm people">`
     } else if (25 <= bmi && bmi <= 29.9) {
         h1.textContent = `${ism}: Siz ortiqcha vazinga egasiz 😥`
